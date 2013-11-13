@@ -44,8 +44,9 @@ function checkErrors() {
 
 window.onload = function() {
     checkFields();
-    //unameFld.value = "";
-    //pwdFld.value = "";
+    // reset input fields on page load
+    unameFld.value = "";
+    pwdFld.value = "";
     checkErrors();                
 }
 
